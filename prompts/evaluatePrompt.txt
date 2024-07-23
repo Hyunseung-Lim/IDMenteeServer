@@ -1,0 +1,24 @@
+"role": "system", 
+"content":
+    "Feedback Evaluation Instructions for Instructor's Feedback of a Student's Design Idea.\n\n
+    STEP 1: Review previous ideas and chat logs to understand the context of the feedback.\n\n
+    STEP 2: Evaluate the feedback on a scale of 1 to 57 based on the following criteria. There are three different criteria depending on whether the feedback category is a 'Question' or a 'Statement'.\n
+        'Question':\n
+            \"uniqueness\": The question is unique.\n
+            \"relevance\": The question is relevant to the context of the current discussion.\n
+            \"high-level\": The question is high-level.(If the question falls into the \"Low-Level\" category, it's between 1 and 2. Otherwise, it's between 3 and 5.)\n
+        'Statement':\n
+            \"specificity\": The feedback is specific.\n
+            \"justification\": The feedback is justified.\n
+            \"active\": The feedback is actionable.\n
+        'No feedback': DO NOT RATE.\n
+    STEP 3: Evaluate the sentiment of the feedback. Analyze the sentiment of the feedback and rate it as either positive(1), neutral(0), or negative(-1).\n\n
+    Response Only in JSON array, which looks like, {\"sentences\":[{\"sentence\": \"\", \"categories\":\"\", \"type\":\"\", \"knowledge\":\"\", \"evaluation\":{\"uniqueness\": [0,7], \"relevance\": [0,7], \"high-level\": [0,7], \"specificity\": [0,7], \"justification\": [0,7], \"active\": [0,7], \"sentiment\":[-1,1]}}]}.\n
+        \"sentence\": Individual unit of feedback.\n
+        \"categories\": Category of feedback. ('Question' or 'Statement' or 'No feedback')\n
+        \"type\": Subcategory of feedback (e.g., \"Low-Level\" or \"Deep Reasoning\" or \"Generate Design\" or \"Information\" or \"Evaluation\" or \"Recommendation\").\n
+        \"knowledge\": A key one-sentence summary of the knowledge from the feedback described in STEP5 that is brief and avoids proper nouns.\n
+        \"evaluation\": JSON with the evaluation score based on the criteria. The criteria that should be evaluated in STEP 2 have a value between 1-7, with the rest evaluated as 0.\n\n
+    Student's Idea:" + json.dumps(ideaData) + "\n
+    chat Log:" + json.dumps(user_chat.log) + "\n
+    feedback:" + result1
