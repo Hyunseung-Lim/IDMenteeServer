@@ -1,8 +1,8 @@
 "role": "system", 
 "content":
 "This is your design ideas: " + json.dumps(ideaData) + "\n
-Your Design Knowledge: " + knowledge + "\n
 Answer feedback from the user.\n
 The format of your answer is JSON as follows. {\"answer\": {your answer}} \n
+Your answer can only be text, not an array.(markdown is available.)\n
 This is previous conversations: " + json.dumps(user_chat.log) + "\n
 This is the following chat(feedback): " + feedback 

@@ -1,0 +1,6 @@
+"role": "system", 
+"content":
+"PLEASE improve your design ideas by incorporating the following conversation as much as possible. All content must be written in Korean. Ideas are a maximum of 1000 characters.\n
+This is a design idea you have to improve;" +  + "\n
+This is the conversation you have to refer to;" +  + "\n
+Response Only in JSON array, which looks like, {'topic': \"\", 'design_goals': [], 'title': \"\", 'target_problem': \"\", 'idea': \"\"}"

@@ -28,18 +28,17 @@ LLQ = ["low-level", "verification", "definition", "example", "feature specificat
 DRQ = ["deep reasoning", "interpretation", "goal orientation", "causal antecedent", "causal consequent", "expectational", "instrumental/procedural", "instrumental", "procedural", "enablement(dr)"]
 GDQ = ["generate design", "proposal/negotiation", "proposal", "negotiation", "scenario creation", "ideation", "method", "enablement(gd)"]
 
-IdeaCategory = ['product', 'uiux']
 ideaOrder = [[0,2,1,3],[0,3,1,2],[1,2,0,3],[1,3,0,2],[2,0,3,1],[2,1,3,0],[3,0,2,1],[3,1,2,0]]
 
 Ideas = [
-    {'category':"product", 'topic': "1인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"product", 'topic': "2인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"product", 'topic': "3인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"product", 'topic': "4인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"uiux", 'topic': "5인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"uiux", 'topic': "6인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"uiux", 'topic': "7인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
-    {'category':"uiux", 'topic': "8인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "1인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "2인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "3인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "4인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "5인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "6인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "7인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
+    {'topic': "8인구위기(저출산, 고령화) 극복을 위한 '기술의 활용' 아이디어", 'design_goals': ['1. asdf', '2.asfds', '3.asdfas'], 'title': "유아친화 지역 사회 공간", 'target_problem': "아이를 키우는 환경의 부족", 'idea': "지역 사회 내에서 안전하고 창의적인 유아친화 공간을 만들어 부모들이 아이들을 더욱 편리하고 즐겁게 키울 수 있도록 지원합니다. 이 공간들은 공원, 도서관, 커뮤니티 센터 등에 설치되며, 양질의 어린이 프로그램과 활동을 제공하여 부모들의 육아 부담을 줄이고, 아이들이 사회적 상호작용을 통해 성장할 수 있는 환경을 제공합니다."},
 ]
 
 def flag_all_modified(instance):
@@ -115,7 +114,7 @@ def profile():
     name = user.name
     
     idea = Idea.query.filter_by(user_id=user.id, round=user.currentRound).first()
-    ideaData = {"id": idea.id, "category":idea.category, "topic": idea.topic, "design_goals": idea.design_goals, "title": idea.title, "problem": idea.target_problem, "idea": idea.idea}
+    ideaData = {"id": idea.id, "topic": idea.topic, "design_goals": idea.design_goals, "title": idea.title, "problem": idea.target_problem, "idea": idea.idea}
     # ideasData = []
     # ideas = Idea.query.filter_by(user_id=user.id, round=user.currentRound).all()
     # ideasData = [{"id": idea.id, "title": idea.title, "problem": idea.target_problem, "idea": idea.idea} for idea in ideas]
@@ -163,10 +162,10 @@ def mode():
     ]
     
     new_ideas = [
-        Idea(user_id=user.id, round=1, category=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['category'], design_goals = Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['idea']),
-        Idea(user_id=user.id, round=2, category=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['category'], design_goals = Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['idea']),
-        Idea(user_id=user.id, round=3, category=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['category'], design_goals = Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['idea']),
-        Idea(user_id=user.id, round=4, category=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['category'], design_goals = Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['idea'])
+        Idea(user_id=user.id, round=1, design_goals = Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][0] * 2 + random.choice([0, 1])]['idea']),
+        Idea(user_id=user.id, round=2, design_goals = Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][1] * 2 + random.choice([0, 1])]['idea']),
+        Idea(user_id=user.id, round=3, design_goals = Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][2] * 2 + random.choice([0, 1])]['idea']),
+        Idea(user_id=user.id, round=4, design_goals = Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['design_goals'], topic=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['topic'], title=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['title'], target_problem=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['target_problem'], idea=Ideas[ideaOrder[user.id % 8][3] * 2 + random.choice([0, 1])]['idea'])
     ]
     
     if user_mode == 1:
@@ -366,7 +365,7 @@ def response():
                     flag_modified(user_knowledgestate, 'qns')
                     flag_modified(user_knowledgestate, 'eval')
     
-                if sentence['type'].lower() in ['information', 'evalutation', 'recommendation']:
+                if sentence['type'].lower() in ['information', 'evaluation', 'recommendation']:
                     user_knowledgestate.counter['q_count'] -= 1
                     user_knowledgestate.s_num += 1
                     if user_knowledgestate.qns < 5:
@@ -502,7 +501,7 @@ def baselineresponse():
 
     user_chat = ChatLog.query.filter_by(user_id=user.id, round=user.currentRound).first()
 
-    prompt = [{"role": "system","content":"This is your design ideas: " + json.dumps(ideaData) +  "\nAnswer feedback from the user.\nThe format of your answer is JSON as follows. {\"answer\": {your answer}} \nThis is previous conversations: " + json.dumps(user_chat.log) + "\nThis is the following chat(feedback): " + feedback }]
+    prompt = [{"role": "system","content":"This is your design ideas: " + json.dumps(ideaData) + "\nAnswer feedback from the user.\nThe format of your answer is JSON as follows. {\"answer\": {your answer}} \nYour answer can only be text, not an array.(markdown is available.)\nThis is previous conversations: " + json.dumps(user_chat.log) + "\nThis is the following chat(feedback): " + feedback }]
             
     completion = openai.chat.completions.create(
         model="gpt-4o",
@@ -524,8 +523,6 @@ def baselineresponse():
     flag_modified(user_chat, 'log')
 
     db.session.commit()
-
-
     return {"response": result3["answer"]}
 
 
@@ -588,6 +585,47 @@ def askQuestion():
     db.session.commit()
 
     return {"response": result["question"]}
+
+@main.route("/updateIdea")
+@jwt_required()
+@cross_origin()
+def updateIdea():
+    user = User.query.filter_by(email=get_jwt_identity()).first()
+    user_chat = ChatLog.query.filter_by(user_id=user.id).first()
+    idea = Idea.query.filter_by(user_id=user.id, round=user.currentRound).first()
+    ideaData = {"topic": idea.topic, "design criteria": idea.design_goals, "title": idea.title, "problem": idea.target_problem, "idea": idea.idea}
+    ideaUpdatePrompt = [{ "role": "system", "content":"PLEASE improve your design ideas by incorporating the following conversation as much as possible. All content must be written in Korean.\nThis is a design idea you have to improve;" + json.dumps(ideaData) + "\nThis is the conversation you have to refer to;" + json.dumps(user_chat.log) + "\nResponse Only in JSON array, which looks like, {'title': \"\", 'target_problem': \"\", 'idea': \"\"}"}]
+    
+    completion1 = openai.chat.completions.create(
+        model="gpt-4-turbo",
+        # model="gpt-3.5-turbo",
+        messages=ideaUpdatePrompt,
+        response_format={"type": "json_object"}
+    )
+    try:
+        result = json.loads(completion1.choices[0].message.content)
+    except ZeroDivisionError as e:
+        # This will run only if there is no error
+        return {"response": "error"}
+    
+    try:
+        idea.title = result['title']
+        idea.problem = result['target_problem']
+        idea.idea = result['idea']
+
+        flag_modified(idea, 'title')
+        flag_modified(idea, 'target_problem')
+        flag_modified(idea, 'idea')
+        db.session.commit()
+
+    except ZeroDivisionError as e:
+        return {"response": "error"}
+    
+    ideaData = {"topic": idea.topic, "design criteria": idea.design_goals, "title": result['title'], "problem": result['target_problem'], "idea": result['idea']}
+
+    return {"ideaData": ideaData}
+
+
 
 @main.route("/nextRound")
 @jwt_required()
