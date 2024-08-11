@@ -4,9 +4,9 @@
     STEP 1: Review previous ideas and chat logs to understand the context of the feedback.\n\n
     STEP 2: Evaluate the feedback on a scale of 1 to 57 based on the following criteria. There are three different criteria depending on whether the feedback category is a 'Question' or a 'Statement'.\n
         'Question':\n
-            \"uniqueness\": The question is unique.\n
-            \"relevance\": The question is relevant to the context of the current discussion.\n
-            \"high-level\": The question is high-level.(If the question falls into the \"Low-Level\" category, it's between 1 and 2. Otherwise, it's between 3 and 5.)\n
+            \"timely\": This feedback(question) was provided at the appropriate time.\n
+            \"relevance\": The feedback(question) is relevant to achieving the design goals.The design goals are; Inovation: how innovative the idea is, Elaboration: how sophisticated the idea is, Usability: how easy the idea is to use, Value: how valuable the idea is to use, and Social Responsibility: how socially responsible the idea is.\n
+            \"high-level\": The feedback(question) is high-level.(If the question falls into the \"Low-Level\" category, it's between 1 and 2. Otherwise, it's between 3 and 5.)\n
         'Statement':\n
             \"specificity\": The feedback is specific.\n
             \"justification\": The feedback is justified.\n

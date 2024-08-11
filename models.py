@@ -7,6 +7,7 @@ class User(UserMixin, db.Model):
     password = db.Column(db.String(100))
     realPassword = db.Column(db.String(100))
     name = db.Column(db.String(1000))
+    num = db.Column(db.Integer)
     currentRound = db.Column(db.Integer)
 
 class Idea(db.Model):
@@ -46,10 +47,13 @@ class KnowledgeState(db.Model):
     # consideration = db.Column(db.String(1000))
     q_num = db.Column(db.Integer)
     s_num = db.Column(db.Integer)
-    qns = db.Column(db.Integer) # question and statemnet
-    cnd = db.Column(db.Integer) # divergent and convergent
+    c_num = db.Column(db.Integer)
+    d_num = db.Column(db.Integer)
+    # qns = db.Column(db.Integer) # question and statemnet
+    # cnd = db.Column(db.Integer) # divergent and convergent
     eval = db.Column(db.JSON)
     knowledge = db.Column(db.String(3000))
+    actionPlan = db.Column(db.String(3000))
     counter = db.Column(db.JSON)
  
 class ChatLog(db.Model):
@@ -57,6 +61,14 @@ class ChatLog(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     round = db.Column(db.Integer)
     log = db.Column(db.JSON)
+
+class UserLog(db.Model):
+    id = db.Column(db.Integer, primary_key=True) # primary keys are required by SQLAlchemy
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    round = db.Column(db.Integer)
+    timestamp = db.Column(db.String(100))
+    tag = db.Column(db.String(100))
+    data = db.Column(db.JSON)
 
 # class Log(db.Model):
 #     id = db.Column(db.Integer, primary_key=True) # primary keys are required by SQLAlchemy
